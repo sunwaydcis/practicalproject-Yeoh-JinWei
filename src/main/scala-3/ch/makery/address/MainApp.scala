@@ -10,6 +10,7 @@ import scalafx.Includes.*
 import javafx.scene as jfxs
 import scalafx.beans.property.StringProperty
 import scalafx.collections.ObservableBuffer
+import scalafx.scene.image.Image
 import scalafx.stage.{Modality, Stage}
 // as is making it easier to write when u refer to jfxs you're saying javafx.scene
 
@@ -50,6 +51,7 @@ object MainApp extends JFXApp3:
 
     stage = new PrimaryStage():
       title = "AddressApp"
+      icons += new Image(getClass.getResource("/images/food.png").toExternalForm)
       scene = new Scene():
         stylesheets = Seq(cssResource.toExternalForm)
         root = roots.get //Scene has a root property and calling the setter
