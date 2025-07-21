@@ -18,6 +18,7 @@ object MainApp extends JFXApp3:
   //Window Root Pane
   //Option: Optional object set to NONE (Singleton object no value). Optional can fill or not also ok
   var roots: Option[scalafx.scene.layout.BorderPane] = None
+  var cssResource = getClass.getResource("view/DarkTheme.css")
   /**
    * The data as an observable list of Persons.
    */
@@ -50,6 +51,7 @@ object MainApp extends JFXApp3:
     stage = new PrimaryStage():
       title = "AddressApp"
       scene = new Scene():
+        stylesheets = Seq(cssResource.toExternalForm)
         root = roots.get //Scene has a root property and calling the setter
 
     // call to display PersonOverview when app start
@@ -78,6 +80,7 @@ object MainApp extends JFXApp3:
       initOwner(stage)
       scene = new Scene:
         root = roots2
+        stylesheets = Seq(cssResource.toExternalForm)
 
     control.dialogStage = dialog
     control.person = person
