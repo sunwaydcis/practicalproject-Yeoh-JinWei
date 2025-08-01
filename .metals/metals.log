@@ -1,0 +1,76 @@
+2025.07.31 18:15:04 INFO  Started: Metals version 1.6.0 in folders 'C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei' for client Visual Studio Code 1.102.3.
+2025.07.31 18:15:05 INFO  no build target found for C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.31 18:15:09 INFO  running 'C:\Program Files\Java\jdk-24\bin\java.exe -Djline.terminal=jline.UnsupportedTerminal -Dsbt.log.noformat=true -Dfile.encoding=UTF-8 -jar C:\Users\Temp\AppData\Local\Temp\metals9679749799688092894\sbt-launch.jar -Dbloop.export-jar-classifiers=sources bloopInstall'
+2025.07.31 18:15:10 ERROR WARNING: A terminally deprecated method in sun.misc.Unsafe has been called
+2025.07.31 18:15:10 ERROR WARNING: sun.misc.Unsafe::arrayBaseOffset has been called by net.openhft.hashing.UnsafeAccess (file:/C:/Users/Temp/.sbt/boot/scala-2.12.19/org.scala-sbt/sbt/1.10.2/zero-allocation-hashing-0.16.jar)
+2025.07.31 18:15:10 ERROR WARNING: Please consider reporting this to the maintainers of class net.openhft.hashing.UnsafeAccess
+2025.07.31 18:15:10 ERROR WARNING: sun.misc.Unsafe::arrayBaseOffset will be removed in a future release
+2025.07.31 18:15:10 ERROR WARNING: A restricted method in java.lang.System has been called
+2025.07.31 18:15:10 ERROR WARNING: java.lang.System::load has been called by com.sun.jna.Native in an unnamed module (file:/C:/Users/Temp/.sbt/boot/scala-2.12.19/org.scala-sbt/sbt/1.10.2/jna-5.13.0.jar)
+2025.07.31 18:15:10 ERROR WARNING: Use --enable-native-access=ALL-UNNAMED to avoid a warning for callers in this module
+2025.07.31 18:15:10 ERROR WARNING: Restricted methods will be blocked in a future release unless native access is enabled
+2025.07.31 18:15:10 ERROR 
+2025.07.31 18:15:10 INFO  [info] welcome to sbt 1.10.2 (Oracle Corporation Java 24.0.1)
+2025.07.31 18:15:11 INFO  no build target found for C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\build.sbt. Using presentation compiler with project's scala-library version: 3.3.6
+2025.07.31 18:15:12 INFO  [info] loading settings for project practicalproject-yeoh-jinwei-build-build-build from metals.sbt ...
+2025.07.31 18:15:12 INFO  [info] loading project definition from C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\project\project\project
+2025.07.31 18:15:14 INFO  [info] loading settings for project practicalproject-yeoh-jinwei-build-build from metals.sbt ...
+Jul 31, 2025 6:15:14 PM org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace
+2025.07.31 18:15:14 INFO  [info] loading project definition from C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\project\project
+2025.07.31 18:15:15 INFO  [success] Generated .bloop\practicalproject-yeoh-jinwei-build-build.json
+2025.07.31 18:15:15 INFO  [success] Total time: 1 s, completed Jul 31, 2025, 6:15:15 PM
+2025.07.31 18:15:15 INFO  [info] loading settings for project practicalproject-yeoh-jinwei-build from metals.sbt,plugins.sbt ...
+2025.07.31 18:15:15 INFO  [info] loading project definition from C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\project
+2025.07.31 18:15:17 INFO  [success] Generated .bloop\practicalproject-yeoh-jinwei-build.json
+2025.07.31 18:15:17 INFO  [success] Total time: 1 s, completed Jul 31, 2025, 6:15:17 PM
+2025.07.31 18:15:17 INFO  [info] loading settings for project root from build.sbt ...
+2025.07.31 18:15:18 INFO  [info] set current project to introtosclafx (in build file:/C:/Users/Temp/Documents/GitHub/practicalproject-Yeoh-JinWei/)
+2025.07.31 18:15:18 INFO  [success] Generated .bloop\root.json
+2025.07.31 18:15:18 INFO  [success] Generated .bloop\root-test.json
+2025.07.31 18:15:18 INFO  [success] Total time: 0 s, completed Jul 31, 2025, 6:15:18 PM
+2025.07.31 18:15:19 INFO  time: ran 'sbt bloopInstall' in 9.27s
+2025.07.31 18:15:19 INFO  Attempting to connect to the build server...
+2025.07.31 18:15:19 INFO  Found a Bloop server running
+2025.07.31 18:15:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\.metals\bsp.trace.json or C:\Users\Temp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.07.31 18:15:19 INFO  Attempting to connect to the build server...
+2025.07.31 18:15:19 INFO  Found a Bloop server running
+2025.07.31 18:15:19 INFO  Attempting to connect to the build server...
+2025.07.31 18:15:19 INFO  Found a Bloop server running
+2025.07.31 18:15:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\project\project\.metals\bsp.trace.json or C:\Users\Temp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.07.31 18:15:19 INFO  tracing is disabled for protocol BSP, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\project\.metals\bsp.trace.json or C:\Users\Temp\AppData\Local\scalameta\metals\cache\bsp.trace.json
+2025.07.31 18:15:19 INFO  time: Connected to build server in 0.3s
+2025.07.31 18:15:19 INFO  Connected to Build server: Bloop v2.0.10
+2025.07.31 18:15:26 INFO  time: indexed workspace in 7.4s
+2025.07.31 18:15:26 INFO  compiling root (6 scala sources)
+2025.07.31 18:15:32 INFO  time: compiled root in 5.29s
+2025.07.31 18:15:32 ERROR scala.meta.internal.metals.debug.DiscoveryFailures$NoRunOptionException$: There is nothing to run or test in the current file.
+	at scala.meta.internal.metals.debug.DiscoveryFailures$NoRunOptionException$.<clinit>(DiscoveryFailures.scala:62)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$runOrTestFile$2(DebugDiscovery.scala:314)
+	at scala.Option.fold(Option.scala:263)
+	at scala.meta.internal.metals.debug.DebugDiscovery.runOrTestFile(DebugDiscovery.scala:256)
+	at scala.meta.internal.metals.debug.DebugDiscovery.$anonfun$debugDiscovery$1(DebugDiscovery.scala:176)
+	at scala.concurrent.impl.Promise$Transformation.run(Promise.scala:470)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1095)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:619)
+	at java.lang.Thread.run(Thread.java:1447)
+
+2025.07.31 18:15:33 INFO  time: code lens generation in 1.59s
+2025.07.31 18:15:33 INFO  time: code lens generation in 1.59s
+2025.07.31 18:15:38 INFO  tracing is disabled for protocol dap-server, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\.metals\dap-server.trace.json or C:\Users\Temp\AppData\Local\scalameta\metals\cache\dap-server.trace.json
+2025.07.31 18:15:38 INFO  tracing is disabled for protocol dap-client, to enable tracing of incoming and outgoing JSON messages create an empty file at C:\Users\Temp\Documents\GitHub\practicalproject-Yeoh-JinWei\.metals\dap-client.trace.json or C:\Users\Temp\AppData\Local\scalameta\metals\cache\dap-client.trace.json
+2025.07.31 18:15:38 INFO  Starting debug proxy for [ch.makery.address.MainApp]
+2025.07.31 18:15:38 INFO  Loaded expression compiler in 0 milliseconds
+2025.07.31 18:15:38 INFO  Loaded step filter in 0 milliseconds
+2025.07.31 18:15:40 INFO  Loaded all sources and classes in 1 second
+2025.07.31 18:15:40 INFO  Initialized Scala 3 decoder in 928 milliseconds
+2025.07.31 18:15:40 INFO  Trying to attach to remote debuggee VM 127.0.0.1:56354 .
+2025.07.31 18:15:40 INFO  Attaching to debuggee VM succeeded.
+2025.07.31 18:15:54 INFO  Closing debug server tcp://0.0.0.0:56352
+2025.07.31 18:15:54 INFO  Canceling debug proxy for [ch.makery.address.MainApp]
+2025.07.31 18:30:02 INFO  Shutting down server
+2025.07.31 18:30:02 INFO  shutting down Metals
+2025.07.31 18:30:02 INFO  Shut down connection with build server.
+2025.07.31 18:30:02 INFO  Shut down connection with build server.
+2025.07.31 18:30:02 INFO  Shut down connection with build server.
+2025.07.31 18:30:02 INFO  Exiting server
